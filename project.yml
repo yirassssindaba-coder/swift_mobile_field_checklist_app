@@ -1,0 +1,21 @@
+name: MobileFieldChecklistApp
+options:
+  bundleIdPrefix: com.yourname
+settings:
+  SWIFT_VERSION: 5.0
+targets:
+  MobileFieldChecklistApp:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - path: MobileFieldChecklistApp
+    resources:
+      - path: MobileFieldChecklistApp/Resources
+      - path: MobileFieldChecklistApp/Assets.xcassets
+      - path: assets
+    info:
+      path: MobileFieldChecklistApp/Info.plist
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.yourname.mobilefieldchecklist
+      DEVELOPMENT_TEAM: ""

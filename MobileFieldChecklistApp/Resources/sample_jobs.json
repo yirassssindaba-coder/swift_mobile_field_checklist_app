@@ -1,0 +1,63 @@
+[
+  {
+    "id": "JOB-1001",
+    "title": "PM Preventive Maintenance - Router & AP",
+    "siteName": "Site A - Warehouse",
+    "address": "Jl. Industri No. 12, Jakarta",
+    "checklist": [
+      {
+        "id": "C1",
+        "title": "Cek power & indikator perangkat",
+        "required": true
+      },
+      {
+        "id": "C2",
+        "title": "Cek koneksi uplink (link up)",
+        "required": true
+      },
+      {
+        "id": "C3",
+        "title": "Tes ping gateway & DNS",
+        "required": true
+      },
+      {
+        "id": "C4",
+        "title": "Dokumentasi label port & kabel",
+        "required": false
+      },
+      {
+        "id": "C5",
+        "title": "Foto kondisi rak / perangkat",
+        "required": false
+      }
+    ]
+  },
+  {
+    "id": "JOB-1002",
+    "title": "Install CCTV - Setup NVR",
+    "siteName": "Site B - Office",
+    "address": "Jl. Sudirman No. 88, Bandung",
+    "checklist": [
+      {
+        "id": "C1",
+        "title": "Cek storage NVR (health)",
+        "required": true
+      },
+      {
+        "id": "C2",
+        "title": "Konfigurasi time & timezone",
+        "required": true
+      },
+      {
+        "id": "C3",
+        "title": "Tes stream kamera (preview)",
+        "required": true
+      },
+      {
+        "id": "C4",
+        "title": "Buat user akses supervisor",
+        "required": false
+      }
+    ]
+  }
+]
